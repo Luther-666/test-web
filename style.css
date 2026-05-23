@@ -1802,6 +1802,19 @@ body::after {
     .contact-title {
         font-size: clamp(24px, 7vw, 36px) !important;
     }
+
+    /* Force show all animated elements on mobile */
+    .contact-title,
+    .contact-subtitle,
+    .contact-card-glass,
+    .comments-card-glass,
+    .project-card,
+    .tech-card,
+    .project-header,
+    .tab-wrapper {
+        opacity: 1 !important;
+        transform: none !important;
+    }
 }
 
 @media (max-width: 480px) {
