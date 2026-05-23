@@ -1754,7 +1754,9 @@ body::after {
 @media (max-width: 768px) {
     .hero-container {
         padding: 100px 20px 60px 20px !important;
-        justify-content: center;
+        min-height: auto !important;
+        align-items: flex-start !important;
+        justify-content: flex-start;
         text-align: left;
     }
 
