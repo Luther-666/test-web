@@ -792,7 +792,6 @@ body::after {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     padding: 4px;
-    height: 180px;
 }
 
 .tech-card {
