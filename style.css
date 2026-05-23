@@ -1785,6 +1785,23 @@ body::after {
     .about-text {
         max-width: 100%;
     }
+
+    /* Fix contact grid overlap */
+    .contact-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+    }
+
+    .contact-section {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+    .contact-title {
+        font-size: clamp(24px, 7vw, 36px) !important;
+    }
 }
 
 @media (max-width: 480px) {
